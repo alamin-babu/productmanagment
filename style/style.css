@@ -1,0 +1,161 @@
+body {}
+
+/* Navbar css */
+.navbar {
+    display: flex;
+    margin-top: -9px;
+    height: 80px;
+    background-color: #040505;
+    justify-content: space-between;
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    /* color: white; */
+    padding: 28px 18px;
+    font-size: 25px;
+
+}
+
+.navbar a:hover {
+    background-color: #2f17e9;
+}
+
+.login-container,
+.signup-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 1%;
+
+
+}
+
+.login-form,
+.signup-form {
+    background-color: wheat;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+
+
+}
+
+.login-form form,
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label,
+.signup-form label {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.login-form input,
+.signup-form input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.login-form input[type=submit],
+.signup-form input[type=submit] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer ;
+}
+.login-form input[type=submit]:hover,
+.signup-form input[type=submit]:hover {
+   background-color: green;
+   color: white;
+}
+
+.menu-container {}
+
+@media(max-width:700px) {
+
+    .login-form,
+    .signup-form {
+        background-color: wheat;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        min-width: 80%;
+
+    }
+
+}
+
+/* menu */
+
+.menu-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.menu-container button {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* profile */
+
+.update-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.update-container .update-form {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    background-color: wheat;
+
+}
+
+.update-container .update-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-container .update-form label {
+    text-align: left;
+    margin-bottom: 8px;
+}
+.update-container .update-form input{
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.update-container .update-form input[type=submit]{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer ;
+}
+.update-container .update-form input[type=submit]:hover{
+   background-color: green;
+   color: white;
+}
